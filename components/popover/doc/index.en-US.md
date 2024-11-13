@@ -35,6 +35,7 @@ import { NzPopoverModule } from 'ng-zorro-antd/popover';
 | `[nzPopoverMouseLeaveDelay]`    | Delay in seconds, before popover is hidden on mouse leave        | `number`                                                                                                                                                                          | `0.1`         |
 | `[nzPopoverOverlayClassName]`   | Class name of the popover card                                   | `string`                                                                                                                                                                          | -             |
 | `[nzPopoverOverlayStyle]`       | Style of the popover card                                        | `object`                                                                                                                                                                          | -             |
+| `[nzPopoverOverlayClickable]`   | Allow clicking on the mask to close the panel                    | `boolean`                                                                                                                                                                         | `true`        |
 
 Consult [Tooltip's documentation](/components/tooltip/en#api) to find more APIs.
 | `[nzPopoverBackdrop]` | whether or not the overlay should attach a backdrop | `boolean` | `false` |

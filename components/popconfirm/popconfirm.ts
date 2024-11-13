@@ -64,6 +64,7 @@ export class NzPopconfirmDirective extends NzTooltipBaseDirective {
   @Input('nzPopconfirmMouseLeaveDelay') override mouseLeaveDelay?: number;
   @Input('nzPopconfirmOverlayClassName') override overlayClassName?: string;
   @Input('nzPopconfirmOverlayStyle') override overlayStyle?: NgStyleInterface;
+  @Input('nzPopconfirmOverlayClickable') override overlayClickable?: boolean;
   @Input('nzPopconfirmVisible') override visible?: boolean;
   @Input() nzOkText?: string;
   @Input() nzOkType?: string;

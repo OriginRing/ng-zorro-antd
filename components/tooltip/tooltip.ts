@@ -52,6 +52,7 @@ export class NzTooltipDirective extends NzTooltipBaseDirective {
   @Input('nzTooltipMouseLeaveDelay') override mouseLeaveDelay?: number;
   @Input('nzTooltipOverlayClassName') override overlayClassName?: string;
   @Input('nzTooltipOverlayStyle') override overlayStyle?: NgStyleInterface;
+  @Input('nzTooltipOverlayClickable') override overlayClickable?: boolean;
   @Input({ alias: 'nzTooltipArrowPointAtCenter', transform: booleanAttribute }) override arrowPointAtCenter?: boolean;
   @Input({ transform: booleanAttribute }) override cdkConnectedOverlayPush?: boolean = true;
   @Input() nzTooltipColor?: string;

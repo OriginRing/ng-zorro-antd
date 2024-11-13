@@ -35,6 +35,7 @@ import { NzToolTipModule } from 'ng-zorro-antd/tooltip';
 | `[nzTooltipMouseLeaveDelay]`    | Delay in seconds, before tooltip is hidden on mouse leave        | `number`                                                                                                                                                                          | `0.1`     |
 | `[nzTooltipOverlayClassName]`   | Class name of the tooltip card                                   | `string`                                                                                                                                                                          | -         |
 | `[nzTooltipOverlayStyle]`       | Style of the tooltip card                                        | `object`                                                                                                                                                                          | -         |
+| `[nzTooltipOverlayClickable]`   | Allow clicking on the mask to close the panel                    | `boolean`                                                                                                                                                                         | `true`    |
 
 ### Common API
 

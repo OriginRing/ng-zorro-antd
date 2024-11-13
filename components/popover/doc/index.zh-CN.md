@@ -22,8 +22,8 @@ import { NzPopoverModule } from 'ng-zorro-antd/popover';
 
 ### [nz-popover]:standalone
 
-| 参数                            | 说明                                     | 类型                                                                                                                                                                              | 默认值    |
-| ------------------------------- | ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| 参数                            | 说明                                     | 类型                                                                                                                                                                              | 默认值       |
+| ------------------------------- | ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |-----------|
 | `[nzPopoverArrowPointAtCenter]` | 箭头指向锚点的中心                       | `boolean`                                                                                                                                                                         | `false`   |
 | `[nzPopoverTitle]`              | 标题                                     | `string \| TemplateRef<void>`                                                                                                                                                     | -         |
 | `[nzPopoverContent]`            | 用于定义内容                             | `string \| TemplateRef<void>`                                                                                                                                                     | -         |
@@ -37,6 +37,7 @@ import { NzPopoverModule } from 'ng-zorro-antd/popover';
 | `[nzPopoverOverlayClassName]`   | 卡片类名                                 | `string`                                                                                                                                                                          | -         |
 | `[nzPopoverOverlayStyle]`       | 卡片样式                                 | `object`                                                                                                                                                                          | -         |
 | `[nzPopoverBackdrop]`           | 浮层是否应带有背景板                     | `boolean`                                                                                                                                                                         | `false`   |
+| `[nzPopoverOverlayClickable]`   | 允许点击蒙板而关闭面板                   | `boolean`                                                                                                                                                                         | `true`    |
 
 更多属性请参考 [Tooltip](/components/tooltip/zh#api)。
 
